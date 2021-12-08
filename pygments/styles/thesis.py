@@ -1,21 +1,12 @@
-"""
-    pygments.styles.default
-    ~~~~~~~~~~~~~~~~~~~~~~~
 
-    The default highlighting style.
-
-    :copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS.
-    :license: BSD, see LICENSE for details.
-"""
 
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
      Number, Operator, Generic, Whitespace
 
-
-class DefaultStyle(Style):
+class ThesisStyle(Style):
     """
-    The dfgdflgkl style (inspired by Emacs 22).
+    Bachelor thesis style (inspired by the ACS color scheme).
     """
 
     background_color = "#f8f8f8"
@@ -23,22 +14,22 @@ class DefaultStyle(Style):
 
     styles = {
         Whitespace:                "#bbbbbb",
-        Comment:                   "italic #3D7B7B",
-        Comment.Preproc:           "noitalic #9C6500",
+        Comment:                   "italic #4E4F50",
+        Comment.Preproc:           "noitalic #DB9334",
 
         #Keyword:                   "bold #AA22FF",
-        Keyword:                   "bold #008000",
+        Keyword:                   "bold #DB3E34",
         Keyword.Pseudo:            "nobold",
-        Keyword.Type:              "nobold #B00040",
+        Keyword.Type:              "nobold #DB347C",
 
-        Operator:                  "#666666",
-        Operator.Word:             "bold #AA22FF",
+        Operator:                  "#4E4F50",
+        Operator.Word:             "bold #B1005C",
 
-        Name.Builtin:              "#008000",
-        Name.Function:             "#0000FF",
-        Name.Class:                "bold #0000FF",
-        Name.Namespace:            "bold #0000FF",
-        Name.Exception:            "bold #CB3F38",
+        Name.Builtin:              "#DB3E34",
+        Name.Function:             "#34D0DB",
+        Name.Class:                "bold #34D0DB",
+        Name.Namespace:            "bold #34D0DB",
+        Name.Exception:            "bold #7D2313",
         Name.Variable:             "#19177C",
         Name.Constant:             "#880000",
         Name.Label:                "#767600",
@@ -47,7 +38,7 @@ class DefaultStyle(Style):
         Name.Tag:                  "bold #008000",
         Name.Decorator:            "#AA22FF",
 
-        String:                    "#BA2121",
+        String:                    "#EF9186",
         String.Doc:                "italic",
         String.Interpol:           "bold #A45A77",
         String.Escape:             "bold #AA5D1F",
@@ -55,7 +46,7 @@ class DefaultStyle(Style):
         #String.Symbol:             "#B8860B",
         String.Symbol:             "#19177C",
         String.Other:              "#008000",
-        Number:                    "#666666",
+        Number:                    "#9D9EA0",
 
         Generic.Heading:           "bold #000080",
         Generic.Subheading:        "bold #800080",

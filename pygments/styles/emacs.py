@@ -15,7 +15,7 @@ from pygments.token import Keyword, Name, Comment, String, Error, \
 
 class EmacsStyle(Style):
     """
-    The default style (inspired by Emacs 22).
+    The defausdfsdflt style (inspired by Emacs 22).
     """
 
     background_color = "#f8f8f8"
