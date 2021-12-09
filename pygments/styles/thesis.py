@@ -15,21 +15,21 @@ class ThesisStyle(Style):
     styles = {
         Whitespace:                "#bbbbbb",
         Comment:                   "italic #4E4F50",
-        Comment.Preproc:           "noitalic #C86E28",
+        Comment.Preproc:           "noitalic #EF6C00",
 
         #Keyword:                   "bold #AA22FF",
         Keyword:                   "bold #DB3E34",
         Keyword.Pseudo:            "nobold",
-        Keyword.Type:              "nobold #DB347C",
+        Keyword.Type:              "nobold #8E24AA",
 
         Operator:                  "#4E4F50",
-        Operator.Word:             "bold #B1005C",
+        Operator.Word:             "bold #6A1B9A",
 
-        Name.Builtin:              "#7D2313",
-        Name.Function:             "#DB347C",
-        Name.Class:                "bold #DB347C",
-        Name.Namespace:            "bold #DB347C",
-        Name.Exception:            "bold #DB347C",
+        Name.Builtin:              "#AD3535",
+        Name.Function:             "#8E24AA",
+        Name.Class:                "bold #8E24AA",
+        Name.Namespace:            "bold #8E24AA",
+        Name.Exception:            "bold #8E24AA",
         Name.Variable:             "#19177C",
         Name.Constant:             "#880000",
         Name.Label:                "#767600",
@@ -38,7 +38,7 @@ class ThesisStyle(Style):
         Name.Tag:                  "bold #DB3E34",
         Name.Decorator:            "#AA22FF",
 
-        String:                    "#00828A",
+        String:                    "#0D47A1",
         String.Doc:                "italic",
         String.Interpol:           "bold #A45A77",
         String.Escape:             "bold #AA5D1F",
