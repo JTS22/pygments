@@ -82,6 +82,7 @@ LEXERS = {
     'ChaiscriptLexer': ('pygments.lexers.scripting', 'ChaiScript', ('chaiscript', 'chai'), ('*.chai',), ('text/x-chaiscript', 'application/x-chaiscript')),
     'ChapelLexer': ('pygments.lexers.chapel', 'Chapel', ('chapel', 'chpl'), ('*.chpl',), ()),
     'CharmciLexer': ('pygments.lexers.c_like', 'Charmci', ('charmci',), ('*.ci',), ()),
+    'ChatMLLexer': ('pygments.lexers.chatml', 'ChatML', ('chatml',), ('*.chatml',), ('text/x-markdown',)),
     'CheetahHtmlLexer': ('pygments.lexers.templates', 'HTML+Cheetah', ('html+cheetah', 'html+spitfire', 'htmlcheetah'), (), ('text/html+cheetah', 'text/html+spitfire')),
     'CheetahJavascriptLexer': ('pygments.lexers.templates', 'JavaScript+Cheetah', ('javascript+cheetah', 'js+cheetah', 'javascript+spitfire', 'js+spitfire'), (), ('application/x-javascript+cheetah', 'text/x-javascript+cheetah', 'text/javascript+cheetah', 'application/x-javascript+spitfire', 'text/x-javascript+spitfire', 'text/javascript+spitfire')),
     'CheetahLexer': ('pygments.lexers.templates', 'Cheetah', ('cheetah', 'spitfire'), ('*.tmpl', '*.spt'), ('application/x-cheetah', 'application/x-spitfire')),
