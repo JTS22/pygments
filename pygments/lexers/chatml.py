@@ -43,6 +43,10 @@ class ChatMLLexer(RegexLexer):
             (r'(^<\|im_start\|>)(.+)(\n)', bygroups(Keyword, Generic.Heading, Text)),
             # End special tokens
             (r'(<\|im_end\|>)(\s*?)(\n)', bygroups(Keyword, Whitespace, Text)),
+
+            (r'<\|im_start\|>', Keyword),
+            (r'(\")({.+})(\")', bygroups(Text, String, Text)),
+            (r'{.+}', String),
             # # task list
             # (r'^(\s*)([*-] )(\[[ xX]\])( .+\n)',
             # bygroups(Whitespace, Keyword, Keyword, using(this, state='inline'))),
